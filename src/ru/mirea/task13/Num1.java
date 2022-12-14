@@ -5,7 +5,7 @@ import java.util.*;
 public class Num1 {
     public static void main(String[] args) {
         ArrayList<String> names = new ArrayList<String>();
-
+//
         names.add("Vyacheslav");
         names.add("Roman");
         names.add("Jora");

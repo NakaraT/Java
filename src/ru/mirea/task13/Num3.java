@@ -31,7 +31,7 @@ public class Num3<T> {
         System.arraycopy(array, 0, newArray, 0, pointer);
         array = newArray;
     }
-
+//
     public static void main(String[] args) {
         Num3<String> names = new Num3<String>();
 

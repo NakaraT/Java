@@ -30,7 +30,7 @@ public class Num2 {
 
         if (names.contains("Artem"))
             System.out.println("Список содержит объект Artem (#" + names.indexOf("Artem") +")");
-
+//
         names.remove("Jora");
         names.removeFirst();
         names.removeLast();
