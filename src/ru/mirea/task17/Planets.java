@@ -1,7 +1,7 @@
 package ru.mirea.task17;
 
 import java.util.Scanner;
-
+//
 enum Planets {
     Mercury(3.302e23, 2440),
     Venus(4.869e24, 6052),
@@ -22,7 +22,7 @@ enum Planets {
 
     public double getForce() { return force; }
 }
-
+//
 class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
