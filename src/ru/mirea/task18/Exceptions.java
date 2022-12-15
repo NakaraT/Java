@@ -7,9 +7,9 @@ public class Exceptions {
     {
         String FIO, INN;
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите ФИО: ");
+        System.out.print("Enter your full name => ");
         FIO = scanner.nextLine();
-        System.out.print("Введите номер ИНН: ");
+        System.out.print("Enter the TIN number => ");
         INN = scanner.next();
         try
         {
@@ -17,7 +17,7 @@ public class Exceptions {
         }
         catch (NumberFormatException e)
         {
-            System.out.println("Ошибка, введен недействительный ИНН: " + e.getMessage());
+            System.out.println("Error, invalid TIN entered => " + e.getMessage());
         }
     }
 }
